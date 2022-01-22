@@ -214,3 +214,75 @@ h2{
 .icon{
     color:var(--clr-yellow)
 }
+.Our menu{
+    width: 30%;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-bottom: 10%;
+
+}
+.Our menu >img{
+    position:relative;
+    width: 35rem;
+    height:40rem;
+    margin-left: -45rem;
+    object-position: 5px 10%;
+}
+#cart{
+    margin-bottom: 0px;
+    margin-top: 50px;
+    background-color: rgb(240, 248, 248);
+    display: inline;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    position: relative;
+}
+.button{
+    border: 1px solid;
+    border-color: orange;
+    background-color: orange;
+    padding: 10px;
+    width: 75px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+  div {
+    display: block;
+  }
+  
+  #Our menu{
+    background: white;
+    width: 1000px;
+    margin: 0 auto;
+    
+    height: 200px;
+    margin-bottom: 1px;
+    text-align: auto;}
+    body{
+        background-color: white;
+    }
+    .col{
+        width: 202px;height: 380px;
+        background-color: none;
+        float: right;
+        border: 1px solid black; padding: 40px;margin: 20px;
+        border-radius: 20px;
+    }
+    .coll{
+        width: 202px;height: 280px;
+        background-color: none;float: right;
+        border: 1px solid black; 
+        padding: 40px;margin: 20px;
+        border-radius: 20px; 
+        padding-top: 70px;
+        margin-top: 50px;
+    }
+    #col1{
+        width: 200px;
+        
+    }
+    
+    .col12{
+        width: 202px; height: 300px;
+    }
