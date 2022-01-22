@@ -10,7 +10,7 @@ To be able to run the project the following are required;
 
 1.A code editor in our case we used Visual studio code
 
-2.open the application using a brower perferably Google chrome
+2.Open the application using a brower perferably Google chrome
 
 3.The application is easy to install and runs in both mobile and web application
 
