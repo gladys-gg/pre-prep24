@@ -14,9 +14,9 @@ To be able to run the project the following are required
 ## Known Bugs
 There are no known bugs in the sysyem. 
 ## Technologies Used
-{The technology used for this projrct was HTML AND CSS.}
+The technology used for this projrct was HTML AND CSS.
 ## Support and contact details
-{For any questions or suggestions.KIndly contact me at gladysmwangi04@yahoo.com}
+For any questions or suggestions.KIndly contact me at gladysmwangi04@yahoo.com
 ### License
 
 Copyright (c) {2022} 
