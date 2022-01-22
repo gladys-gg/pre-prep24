@@ -1,6 +1,6 @@
 # BURGER PALACE
  
-#### This application is the land in page of a the companty.It allows the customers to get a veiw of the burgers being offered and the prices. 21st January 2021
+#### This application is the land in page of a the companty.It allows the customers to get a veiw of the burgers being offered and the prices. 21st January 2022
 #### By **Gladys Mwangi**
 ## Description
 This application is web appliction,gives the customers the ability to see the various types of burgers being offered and the various prices.It also gives a preveiw of the various ingredients used to make the burgers.
