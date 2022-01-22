@@ -6,11 +6,13 @@
 This application is web appliction,gives the customers the ability to see the various types of burgers being offered and the various prices.It also gives a preveiw of the various ingredients used to make the burgers.
 ## Setup/Installation Requirements
 
-To be able to run the project the following are required
-1.a code editor in our case we used Visual studio code
+To be able to run the project the following are required;
+
+1.A code editor in our case we used Visual studio code
+
 2.open the application using a brower perferably Google chrome
-3.The application is easy to install and runs in both mobile and web applications
-4.Clone the repository to your computer from 
+
+3.The application is easy to install and runs in both mobile and web application
 
 ## Known Bugs
 There are no known bugs in the sysyem. 
