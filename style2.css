@@ -88,6 +88,35 @@ h2{
     
 }*/
 
+.menu li::after{
+    content: "";
+    height: 4px;
+    display: block;
+    background-color:var(--clr-orange);
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+  
+}
+.menu li:hover::after{
+    width: 100%;
+    
+}
+.menu li a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    color:black; 
+}
+.icon{
+    color:black;
+    font-size: 48px;
+    margin-left: 42px;
+    margin-bottom: 5px;
+    position: relative;
+}
 /* pseudo element fot the cart icon */
 /* .icon::before{
     content: "2";
@@ -99,50 +128,59 @@ h2{
     left:0;
     right:10;
 } */
-
- #never{
-    width: 40%;
-    height: 30%;
-    display: inline;
-    margin-right: 90px;
-    margin-bottom: 60px;
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 90vh;
 }
 
-#time{
-    padding-left: 70px;
-    margin-top: 100px;
-    padding-top: 80;
-}
-
-#btn{
-    background-color: orange;
-    border-radius: 20px;
+.two-left h1{
+    font-size: 1.7em;
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    margin-bottom: 20px;
     color: black;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    margin-left: 70px;
-    
 }
-/*--quALITY SECTION-->*/
+.two-left p{
+    color:gray;
+}
+.two-left div{
+    height: 120px;
+}
+.button{
+
+    margin-left: 0px;
+    background-color: var(--clr-yellow);
+    color: var(--clr-white);
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    font-size: 0.8em;
+    padding:7px 20px;
+    border:none;
+    border-radius: 50px 30px 0 50px;
+    text-align: center;
+}
 .secondsection{
     background-color: #E1EBE6;
-    opacity: 0.9;
-    padding-top: 10px;
+    opacity: 0.7;
+    padding-top: 200px;
 }
 .boxes{
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
 .box-item{
   display: flex;
   flex-direction: column;
   border:1px solid gray;
-  border-radius: 5px;
-  padding: 5px;px;
+  border-radius: 10px;
+  padding:20px;
   text-align: center;
-  width: 300x;
+  width: 350px;
   align-content: space-between;
   transition: all 0.5s ease-in-out;
 
@@ -206,14 +244,14 @@ h2{
         background-color: white;
     }
     .col{
-        width: 280px;height: 380px;
+        width: 202px;height: 380px;
         background-color: none;
-        float: left;
-        border: 1px solid black; padding: 40px;margin: 30px;
+        float: right;
+        border: 1px solid black; padding: 40px;margin: 20px;
         border-radius: 20px;
     }
     .coll{
-        width: 280px;height: 280px;
+        width: 202px;height: 280px;
         background-color: none;float: right;
         border: 1px solid black; 
         padding: 40px;margin: 20px;
@@ -231,87 +269,35 @@ h2{
     }
 
 .row{
-    display: inline-flex;
-    position: relative;
-    padding-bottom: 50px;
-    background: rgb(239, 247, 247);
-    height: 600px
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
- 
 
-double{
-    background: radial-gradient(#fff,#E1EBE6);
-    height: 600px;
 
+
+#never{
+    width: 40%;
+    height: 70%;
+    display: inline;
+    margin-right: 90px;
+    margin-bottom: 60px;
 }
-.double em{
-    color: #F6B400;
+
+#time{
+    padding-left: 70px;
+    margin-top: 100px;
+    padding-top: 80;
 }
-.check1{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 300px;
-    z-index: 2;
 
-}
-.check2{
-   
-    position: absolute;
-   padding: 0;
-   margin-top: -70px;
-   margin-left: -10px;
-   margin-right: 200px;
-}
-.row1{
-    display: inline-flex;
-    position: relative;*/
-    padding-bottom: 50px;
-    background: rgb(239, 247, 247);
-    
-}
-.footer_container{
-    background: white;
-    width: 1000px;
-    margin: 0 auto;
-    
-    height: 200px;
-    margin-bottom: 1px;
-    text-align: auto;}
-    body{
-        background-color: white;
-    }
-
-    .burge{
-        padding-top: 10px;
-        margin-right: 20px;
-    }
-
-    
-
-   #footer > p:first-child { 
-       float: left; text-align: left; 
-       
-       width: 33.3%; } 
-    #footer > p:last-child { 
-          float: right; text-align: right; 
-          width: 33.3%; }
-
-
-   input[type="text"]{
-       border-radius: 25px 0 0 25px;
-       
-   }
-
-
-   input[type="submit"]{
-    border-radius: 0 25px 25px 0;
-    left: -6px;
-    position: relative;
+#button{
     background-color: orange;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 70px;
     
-}
-.sitemap{
-    margin-top: -100px;
-    padding: 0%;
 }
